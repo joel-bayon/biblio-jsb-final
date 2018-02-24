@@ -9,12 +9,17 @@ import java.util.Properties;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-//@WebServlet({"/authentification/login", "/authentification/validation" })
+@WebServlet(
+		name="authentification", 
+		urlPatterns = {"/authentification/login", "/authentification/validation" }, 
+		initParams= @WebInitParam(name="userFile", value = "/WEB-INF/users.properties"))
 @SuppressWarnings("serial")
 public class AuthentificationServlet extends HttpServlet {
 	// pas d'attribut dans une servlet ....

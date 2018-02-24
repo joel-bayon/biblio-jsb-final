@@ -32,14 +32,7 @@ public class BiblioListener implements ServletContextListener {
 	/**
      * @see ServletContextListener#contextDestroyed(ServletContextEvent)
      */
-	    public void contextDestroyed(ServletContextEvent event)  { 
-	   /* 	Bibliotheque biblio = (Bibliotheque)event.getServletContext().getAttribute("biblio");
-	    	LivreDao livreDao = biblio.getLivreDao();
-	    AdherentDao adherentDao = biblio.getAdherentDao();
-	    EmpruntDao empruntDao = biblio.getEmpruntDao();
-	    empruntDao.delete(empruntDao.findAll()); 
-    		livreDao.delete(livreDao.findAll());  
-    		adherentDao.delete(adherentDao.findAll()); */
+    public void contextDestroyed(ServletContextEvent event)  { 
     }
 
 	/**

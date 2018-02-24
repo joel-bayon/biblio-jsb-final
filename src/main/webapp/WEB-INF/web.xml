@@ -3,7 +3,7 @@
   <display-name>hello</display-name>
   <!-- <listener>
   	<listener-class>fr.orsys.biblio.listener.BiblioListener</listener-class>
-  </listener> -->
+  </listener> 
   <servlet>
     <servlet-name>hello</servlet-name>
     <servlet-class>fr.orsys.biblio.servlet.HelloServlet</servlet-class>
@@ -11,7 +11,7 @@
   <servlet-mapping>
     <servlet-name>hello</servlet-name>
     <url-pattern>/welcome</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   <servlet>
     <servlet-name>authentification</servlet-name>
     <servlet-class>fr.orsys.biblio.servlet.AuthentificationServlet</servlet-class>

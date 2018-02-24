@@ -1,3 +1,3 @@
 
 
-<center>blalbalblabla .... blabklalbla  ..... blalbla !</center>
+<center>footer .... footer  ..... footer .... footer .... footer .... footer .... footer .... footer</center>
